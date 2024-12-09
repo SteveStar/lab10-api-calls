@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and XHR Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h1>Fetch and XHR Demo</h1>
+
+<div>
+    <button id="fetch-button">Fetch Data with fetch()</button>
+    <button id="xhr-button">Fetch Data with XHR</button>
+</div>
+
+<section id="data-display">
+    <h2>Fetched Data</h2>
+    <div id="output">No data fetched yet.</div>
+</section>
+
+<h2>Send Data</h2>
+<form id="data-form">
+    <label for="data-input">Data:</label><br>
+    <textarea id="data-input" rows="4" cols="50" placeholder="Enter your data here..."></textarea><br>
+    <button type="button" id="post-button">Send Data (POST)</button>
+    <button type="button" id="put-button">Send Data (PUT)</button>
+</form>
+
+</body>
+</html>
