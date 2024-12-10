@@ -21,6 +21,7 @@
     <div id="output">No data fetched yet.</div>
 </section>
 
+<div class="form-style">
 <h2>Send Data</h2>
 <form id="data-form">
     <label for="data-input">Data:</label><br>
@@ -28,6 +29,31 @@
     <button type="button" id="post-button">Send Data (POST)</button>
     <button type="button" id="put-button">Send Data (PUT)</button>
 </form>
+</div>
+
+<div class="form-style">
+<h2>Submit a New Post</h2>
+<form id="post-form">
+    <label for="post-title">Title:</label><br>
+    <input id="post-title" type="text" placeholder="Enter post title"><br>
+    <label for="post-body">Body:</label><br>
+    <textarea id="post-body" rows="4" cols="50" placeholder="Enter post body"></textarea><br>
+    <button type="button" id="submit-post">Submit Post</button>
+</form>
+</div>
+
+<div class="form-style">
+<h2>Update an Existing Post (PUT)</h2> 
+<form id="update-post-form"> 
+    <label for="update-post-id">Post ID:</label><br> 
+    <input id="update-post-id" type="number" placeholder="Enter post ID"><br> 
+    <label for="update-post-title">New Title:</label><br> 
+    <input id="update-post-title" type="text" placeholder="Enter post title"><br> 
+    <label for="update-post-body">New Body:</label><br> 
+    <textarea id="update-post-body" rows="4" cols="50" placeholder="Enter post body"></textarea><br> 
+    <button type="button" id="update-post-button">Update Post</button> 
+</form> 
+</div>
 
 </body>
 </html>

@@ -1,3 +1,7 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -10,4 +14,33 @@ button, input, textarea {
     border: 1px solid #ccc;
     padding: 10px;
     margin-top: 10px;
+}
+
+.form-style {
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 7px;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: #9d9d9d;
+}
+
+.form-style h2 {
+    text-align: center;
+}
+
+.form-style button {
+    background-color: #954a4a;
+    font-size: 110%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form-style button:hover {
+    background-color: #683333;
+}
+
+#data-display {
+    width: 50%;
 }
