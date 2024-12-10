@@ -36,7 +36,6 @@ document.getElementById('xhr-button').addEventListener('click', () => {
 });
 
 //here's Task 3
-
 document.getElementById('submit-post').addEventListener('click', () => {
     const postTitle = document.getElementById('post-title').value;
     const postBody = document.getElementById('post-body').value;
@@ -65,7 +64,6 @@ document.getElementById('submit-post').addEventListener('click', () => {
 });
 
 //here's Task 4
-
 document.getElementById('update-post-button').addEventListener('click', () => { 
     const postId = document.getElementById('update-post-id').value; 
     const postTitle = document.getElementById('update-post-title').value; 
